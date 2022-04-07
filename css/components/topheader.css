@@ -1,0 +1,65 @@
+.m-top-header{
+    display: flex;
+    justify-content: space-between;
+    height: 48px;
+    border-bottom: 1px solid #bbbbbb;
+}
+
+.m-top-header .brand-name-text{
+    font-size: 13px;
+    font-family: MISA Font Bold;
+}
+
+.m-top-header .brand-name{
+    padding-left: 24px; 
+    display: flex;
+    align-items: center;
+}
+
+.m-top-header .brand-name-button{
+    background-image: url(../../asset/icon/btn-next-page.svg);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: center;
+    background-color: #fff;
+    border: none;
+    height: 20px;
+    width: 20px;
+    transform: rotate(90deg);
+    margin-left: 10px;
+
+}
+.m-top-header .user-action{
+    width: 200px;
+    height: 100%;
+    border: none;
+    display: flex;
+}
+.m-top-header .user-action a .avatar{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.m-top-header .user-action .avatar img{
+    width: 20px;
+    height: 20px;
+}
+
+.m-top-header .user-action .avatar .avatar-name{
+    margin-left: 16px;
+    margin-right: 16px;
+    color: #000000;
+}
+
+
+.m-top-header .user-action button{
+    background-image: url(../../asset/icon/option.png);
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+    background-position: center;
+    border: none;
+    background-color: #fff;
+    padding-right: 16px;
+    cursor: pointer;
+}

@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goản lý nhà hàng</title>
+    <link rel="stylesheet" href="../css/mainDemo.css">
+</head>
+<body>
+    <div class="container">
+        <div class="menu-left">
+            <div class="menu-left-item">
+                <button class="toggle-button"><img src="../asset/img/toggle.png" alt=""></button>
+                <a href="demo.html" >
+                    <div  class="logo-home"></div>
+                </a>
+            </div>
+            <div class="menu-left-item">
+                <img src="../asset/icon/dashboard.png" alt="dashboard" class="item-icon">
+                <span class="item-text"><p>Tổng quan</p></span>
+            </div>
+            <div class="menu-left-item">
+                <img src="../asset/icon/report.png" alt="dashboard" class="item-icon">
+                <span class="item-text"><p>Báo cáo</p></span>
+            </div>
+            <div class="menu-left-item">
+                <img src="../asset/icon/dashboard.png" alt="dashboard" class="item-icon">
+                <span class="item-text"><p>Mua hàng</p></span>
+            </div>
+            <div class="menu-left-item">
+                <img src="../asset/icon/dic-employee.png" alt="dashboard" class="item-icon">
+                <span class="item-text"><p>Danh mục nhân viên</p></span>
+            </div>
+            <div class="menu-left-item">
+                <img src="../asset/icon/dic-employee.png" alt="dashboard" class="item-icon">
+                <span class="item-text"><p>Danh mục nhân viên</p></span>
+            </div>
+            <div class="menu-left-item">
+                <img src="../asset/icon/setting.png" alt="dashboard" class="item-icon">
+                <span class="item-text"><p>Thiết lập hệ thống</p></span>
+            </div>
+        </div>
+        <div class="content">
+            <div class="m-top-header">
+                <div class="brand-name">
+                    <p class="brand-name-text">Nhà hàng Biển Đông</p>
+                    <button class="brand-name-button"></button>
+                </div>
+                <div class="user-action">
+                    <a href="#">
+                        <div class="avatar">
+                            <img src="../asset/img/default-avatar.jpg" alt="" class="avatar-img">
+                            <p class="avatar-name">Nguyễn Văn Mạnh</p>
+                            
+                        </div>
+                    </a>
+                    <button class="option-button"></button>
+                </div>
+            </div>
+            <div class="staff-manage">
+                <div class="top-row">
+                    <p class="heading">Danh sách nhân viên</p>
+                    <button class="m-button m-button-icon">Thêm nhân viên</button>
+                </div>
+                <div class="filter-and-refresh">
+                    <div class="filter">
+                        <input  class="m-field-input-icon" placeholder="Tìm kiếm theo Mã, Tên hoặc Số điện thoại" type="text">
+                        <div class="m-dropdown">
+                            <p class="m-dropdown-suggest">Tất cả phòng ban</p>
+                            <button></button>
+                            <div class="m-dropdown-data d-none">
+                                <div class="m-dropdown-item">Trang thai 1</div>
+                                <div class="m-dropdown-item">Trang thai 2</div>
+                                <div class="m-dropdown-item">Trang thai 3</div>
+                                <div class="m-dropdown-item m-dropdown-selected">Trang thai 4</div>
+                            </div>
+                        </div>
+                        <div class="m-dropdown">
+                            <p class="m-dropdown-suggest">Tất cả vị trí</p>
+                            <button></button>
+                            <div class="m-dropdown-data d-none">
+                                <div class="m-dropdown-item">Trang thai 1</div>
+                                <div class="m-dropdown-item">Trang thai 2</div>
+                                <div class="m-dropdown-item">Trang thai 3</div>
+                                <div class="m-dropdown-item m-dropdown-selected">Trang thai 4</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="refresh">
+                        <button class="m-jicon-button refresh-button"></button>
+                    </div>
+                </div>
+                <table class="staff-list m-table">
+                    <thead>
+                        <tr>
+                            <td> </td>
+                            <td>Mã nhân viên</td>
+                            <td>Họ và tên</td>
+                            <td>Giới tính</td>
+                            <td>Ngày sinh</td>
+                            <td>Điện thoại</td>
+                            <td>Email</td>
+                            <td>Chức vụ</td>
+                            <td>Phòng ban</td>
+                            <td>Mức lương cơ bản</td>
+                            <td>Tình trạng công việc</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <label class="m-checkbox table-checkbox">
+                                    <input type="checkbox" class="checkbox-square">
+                                    <div class="checkmark"></div>
+                                </label>
+                                
+                            </td>
+                            <td>NV-532408</td>
+                            <td>Hồ Văn Long</td>
+                            <td></td>
+                            <td>11/08/1998</td>
+                            <td>0940458449</td>
+                            <td>cuon@example.com</td>
+                            <td>Giám Đốc</td>
+                            <td>Phòng ban</td>
+                            <td>17.739.391</td>
+                            <td>Đang thử việc</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label class="m-checkbox table-checkbox">
+                                    <input type="checkbox" class="checkbox-square">
+                                    <div class="checkmark"></div>
+                                </label>
+                                
+                            </td>
+                            <td>NV-532408</td>
+                            <td>Hồ Văn Long</td>
+                            <td></td>
+                            <td>11/08/1998</td>
+                            <td>0940458449</td>
+                            <td>cuon@example.com</td>
+                            <td>Giám Đốc</td>
+                            <td>Phòng ban</td>
+                            <td>17.739.391</td>
+                            <td>Đang thử việc</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label class="m-checkbox table-checkbox">
+                                    <input type="checkbox" class="checkbox-square">
+                                    <div class="checkmark"></div>
+                                </label>
+                                
+                            </td>
+                            <td>NV-532408</td>
+                            <td>Hồ Văn Long</td>
+                            <td></td>
+                            <td>11/08/1998</td>
+                            <td>0940458449</td>
+                            <td>cuon@example.com</td>
+                            <td>Giám Đốc</td>
+                            <td>Phòng ban</td>
+                            <td>17.739.391</td>
+                            <td>Đang thử việc</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label class="m-checkbox table-checkbox">
+                                    <input type="checkbox" class="checkbox-square">
+                                    <div class="checkmark"></div>
+                                </label>
+                                
+                            </td>
+                            <td>NV-532408</td>
+                            <td>Hồ Văn Long</td>
+                            <td></td>
+                            <td>11/08/1998</td>
+                            <td>0940458449</td>
+                            <td>cuon@example.com</td>
+                            <td>Giám Đốc</td>
+                            <td>Phòng ban</td>
+                            <td>17.739.391</td>
+                            <td>Đang thử việc</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label class="m-checkbox table-checkbox">
+                                    <input type="checkbox" class="checkbox-square">
+                                    <div class="checkmark"></div>
+                                </label>
+                                
+                            </td>
+                            <td>NV-532408</td>
+                            <td>Hồ Văn Long</td>
+                            <td></td>
+                            <td>11/08/1998</td>
+                            <td>0940458449</td>
+                            <td>cuon@example.com</td>
+                            <td>Giám Đốc</td>
+                            <td>Phòng ban</td>
+                            <td>17.739.391</td>
+                            <td>Đang thử việc</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label class="m-checkbox table-checkbox">
+                                    <input type="checkbox" class="checkbox-square">
+                                    <div class="checkmark"></div>
+                                </label>
+                            </td>
+                            <td>NV-532408</td>
+                            <td>Hồ Văn Long</td>
+                            <td></td>
+                            <td>11/08/1998</td>
+                            <td>0940458449</td>
+                            <td>cuon@example.com</td>
+                            <td>Giám Đốc</td>
+                            <td>Phòng ban</td>
+                            <td>17.739.391</td>
+                            <td>Đang thử việc</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label class="m-checkbox table-checkbox">
+                                    <input type="checkbox" class="checkbox-square">
+                                    <div class="checkmark"></div>
+                                </label>
+                                
+                            </td>
+                            <td>NV-532408</td>
+                            <td>Hồ Văn Long</td>
+                            <td></td>
+                            <td>11/08/1998</td>
+                            <td>0940458449</td>
+                            <td>cuon@example.com</td>
+                            <td>Giám Đốc</td>
+                            <td>Phòng ban</td>
+                            <td>17.739.391</td>
+                            <td>Đang thử việc</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label class="m-checkbox table-checkbox">
+                                    <input type="checkbox" class="checkbox-square">
+                                    <div class="checkmark"></div>
+                                </label>
+                                
+                            </td>
+                            <td>NV-532408</td>
+                            <td>Hồ Văn Long</td>
+                            <td></td>
+                            <td>11/08/1998</td>
+                            <td>0940458449</td>
+                            <td>cuon@example.com</td>
+                            <td>Giám Đốc</td>
+                            <td>Phòng ban</td>
+                            <td>17.739.391</td>
+                            <td>Đang thử việc</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label class="m-checkbox table-checkbox">
+                                    <input type="checkbox" class="checkbox-square">
+                                    <div class="checkmark"></div>
+                                </label>
+                                
+                            </td>
+                            <td>NV-532408</td>
+                            <td>Hồ Văn Long</td>
+                            <td></td>
+                            <td>11/08/1998</td>
+                            <td>0940458449</td>
+                            <td>cuon@example.com</td>
+                            <td>Giám Đốc</td>
+                            <td>Phòng ban</td>
+                            <td>17.739.391</td>
+                            <td>Đang thử việc</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label class="m-checkbox table-checkbox">
+                                    <input type="checkbox" class="checkbox-square">
+                                    <div class="checkmark"></div>
+                                </label>
+                            </td>
+                            <td>NV-532408</td>
+                            <td>Hồ Văn Long</td>
+                            <td></td>
+                            <td>11/08/1998</td>
+                            <td>0940458449</td>
+                            <td>cuon@example.com</td>
+                            <td>Giám Đốc</td>
+                            <td>Phòng ban</td>
+                            <td>17.739.391</td>
+                            <td>Đang thử việc</td>
+                        </tr> 
+                    </tbody>
+                </table>
+                <div class="page-navigation">
+                    <p class="content-details">Hiển thị 1 - 10/1000 nhân viên</p>
+                    <div class="m-pagination" style="width: 500px;">
+                        <button class="first-page-button"></button>
+                        <button class="prev-page-button"></button>
+                        <div class="m-pagination-pages">
+                            <div class="page-item current-page">1</div>
+                            <div class="page-item">2</div>
+                            <div class="page-item">3</div>
+                            <div class="page-item">4</div>
+                        </div>
+                        <button class="next-page-button"></button>
+                        <button class="last-page-button"></button>
+                    </div>
+                    <p class="content-details">10 nhân viên/trang</p>
+                </div>
+            </div>
+            <div class="add-staff-form">
+                <p class="heading">THÔNG TIN NHÂN VIÊN</p>
+                <div class="form-content">
+                    <div class="content-avatar">
+                        <img src="../asset/img/default-avatar.jpg" class="avatar-img">
+                        <p class="content-details">(Vui lòng chọn ảnh có định dạng .jpg, .jpeg, .png, .gif.)</p>
+                    </div>
+                    <div class="content-information">
+                        <p class="title">A. THÔNG TIN CHUNG:</p>
+                        <div class="hr-fake"></div>
+                        <div class="infor-item-container">
+                            <div class="content-information-item">
+                                <label for="" class="label">Mã nhân viên (*)</label>
+                                <div><input  class="m-field-input" placeholder="NV00000" type="text"></div>
+                            </div>
+                            <div class="content-information-item">
+                                <label for="" class="label">Họ và tên (*) (*)</label>
+                                <div><input  class="m-field-input" placeholder="NV00000" type="text"></div>
+                            </div>
+                            <div class="content-information-item">
+                                <label for="" class="label">Ngày sinh (*)</label>
+                                <div><input  class="m-field-input" placeholder="NV00000" type="text"></div>
+                            </div>
+                            <div class="content-information-item">
+                                <label for="" class="label">Giới tính</label>
+                                <div class="m-dropdown">
+                                    <p class="m-dropdown-suggest">Nam</p>
+                                    <button></button>
+                                </div>
+                            </div>
+                            <div class="content-information-item">
+                                <label for="" class="label">Số CMTND/Căn cước (*)</label>
+                                <div><input  class="m-field-input" placeholder="NV00000" type="text"></div>
+                            </div>
+                            <div class="content-information-item">
+                                <label for="" class="label">Ngày cấp</label>
+                                <div><input  class="m-field-input" placeholder="NV00000" type="text"></div>
+                            </div>
+                            <div class="content-information-item">
+                                <label for="" class="label">Nơi cấp</label>
+                                <div><input  class="m-field-input" placeholder="NV00000" type="text"></div>
+                            </div>
+                            <div class="content-information-item">
+                                
+                            </div>
+                            <div class="content-information-item">
+                                <label for="" class="label">Email (*)</label>
+                                <div><input  class="m-field-input" placeholder="NV00000" type="text"></div>
+                            </div>
+                            <div class="content-information-item">
+                                <label for="" class="label">Số điện thoại (*)</label>
+                                <div><input  class="m-field-input" placeholder="NV00000" type="text"></div>
+                            </div>
+                        </div>
+                        <p class="title">B. THÔNG TIN CÔNG VIỆC:</p>
+                        <div class="hr-fake"></div>
+                        <div class="infor-item-container">
+                            <div class="content-information-item">
+                                <label for="" class="label">Vị trí</label>
+                                <div class="m-dropdown">
+                                    <p class="m-dropdown-suggest">Giám đốc</p>
+                                    <button></button>
+                                </div>
+                            </div>
+                            <div class="content-information-item">
+                                <label for="" class="label">Phòng ban</label>
+                                <div class="m-dropdown">
+                                    <p class="m-dropdown-suggest">Phòng nhân sự</p>
+                                    <button></button>
+                                </div>
+                            </div>
+                            <div class="content-information-item">
+                                <label for="" class="label">Mã số thuế cá nhân</label>
+                                <div><input  class="m-field-input" placeholder="NV00000" type="text"></div>
+                            </div>
+                            <div class="content-information-item">
+                                <label for="" class="label">Mức lương cơ bản</label>
+                                <div><input  class="m-field-input" placeholder="NV00000" type="text"></div>
+                            </div>
+                            <div class="content-information-item">
+                                <label for="" class="label">Ngày gia nhập công ty</label>
+                                <div><input  class="m-field-input" placeholder="NV00000" type="text"></div>
+                            </div>
+                            <div class="content-information-item">
+                                <label for="" class="label">Tình trạng công việc</label>
+                                <div class="m-dropdown">
+                                    <p class="m-dropdown-suggest">Đang làm việc</p>
+                                    <button></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="form-action">
+                    <button class="m-second-button">Hủy</button>
+                    <button class="m-button m-button-icon form-save-button">Lưu</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

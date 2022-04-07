@@ -1,0 +1,217 @@
+@import url('./components/button.css');
+@import url('./components/input.css');
+@import url('./components/dialog.css');
+@import url('./components/combobox.css');
+@import url('./components/secondbutton.css');
+@import url('./components/dropdown.css');
+@import url('./components/fieldinput.css');
+@import url('./components/checkbox.css');
+@import url('./components/menuleft.css');
+@import url('./components/table.css');
+@import url('./components/pagination.css');
+@import url('./components/topheader.css');
+
+body{
+    font-family: MISA Font;
+    font-size: 13px;
+    margin: 0;
+}
+
+@font-face {
+    font-family: MISA Font;
+    src: url(../asset/font/GoogleSans-Regular.otf);
+}
+
+@font-face {
+    font-family: MISA Font Bold;
+    src: url(../asset/font/GoogleSans-Bold.otf);
+}
+
+@font-face{
+    font-family: MISA Font Italic;
+    src: url(../asset/font/GoogleSans-Italic.otf);
+}
+@font-face{
+    font-family: MISA Font Regular;
+    src: url(../asset/font/GoogleSans-Regular.otf);
+}
+@font-face {
+    font-family: MISA Font Medium;
+    src: url(../asset/font/GoogleSans-Medium.otf);
+}
+.d-none{
+    display: none;
+}
+
+.m-row{
+    width: 100%;
+}
+html,body{
+    height:100%;
+    width: 100%;
+}
+
+
+body{
+    font-family: MISA Font;
+    font-size: 13px;
+    margin: 0;
+}
+
+/* .m-row.m-row-input{
+    background-color: #bbbbbb;
+    width: 100%;
+    height: 50px;
+}
+.m-row-gray{
+    background-color: #E9EBEE;
+    width: 100%;
+    padding-left: 20px;
+} */
+
+
+.container{
+    height: 100%;
+    display: flex;
+
+}
+
+.content{
+    width: calc(100% - 200px);
+    display: block;
+}
+
+.staff-manage{
+    display: block;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.heading{
+    font-size: 24px;
+    font-family: MISA Font Bold;
+}
+.title{
+    font-size: 20px;
+    font-family: MISA Font Bold;
+}
+.title2{
+    font-size: 20px;
+    font-family: MISA Font Bold;
+}
+.label-input{
+    font-size: 15px;
+    font-family: MISA Font Medium;
+}
+.label{
+    font-size: 13px;
+    font-family: MISA Font Regular;
+}
+.hint{
+    font-size: 11px;
+    color: #BBBBBB;
+    font-family: MISA Font Regular;
+}
+.content-details{
+    font-size: 13px;
+    font-family: MISA Font Medium;
+    color: #000000;
+}
+.top-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.filter{
+    width: 50%;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.filter-and-refresh{
+    display: flex;
+    justify-content: space-between;
+}
+.refresh-button{
+    height: 30px;
+    width: 40px;
+    flex-shrink: 0;
+    background-image: url(../asset/icon/refresh.png);
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px solid #bbbbbb;
+}
+.page-navigation{
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-staff-form{
+    width: 70%;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+}
+.staff-list .table-checkbox{
+    /* padding-bottom: 20px; */
+}
+
+.add-staff-form .form-content{
+    display: flex;
+    width: 100%;
+}
+.add-staff-form .form-content .content-avatar{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    text-align:center;
+}
+
+.add-staff-form .form-content .content-avatar .avatar-img{
+    width: 100%;
+    border: 1px solid #bbbbbb;
+    border-radius: 50%;
+}
+.add-staff-form .form-content .content-information .hr-fake{
+    width: 100px;
+    height: 5px;
+    background-color: #019160;
+    margin: 10px 0px 10px 0px;
+}
+
+.add-staff-form .form-content .content-information{
+    padding-left: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+.content-information .infor-item-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.content-information .content-information-item{
+    width: 48%;
+    margin-bottom: 10px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+.content-information .content-information-item input{
+    box-sizing: border-box;
+}
+
+.add-staff-form .form-action{
+    height: 50px;
+    background-color: #E9EBEE;
+    width: 100%;
+}
+.add-staff-form .form-action{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.add-staff-form .form-action button{
+    margin-left: 10px;
+    margin-right: 20px;
+}

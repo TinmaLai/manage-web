@@ -1,0 +1,26 @@
+.m-table{
+    background-color: #ffffff;
+    width: 100%;
+    font-size: 13px;
+    border-collapse: collapse;
+}
+
+.m-table tr{
+    line-height: 48px;
+    /* align-items: center; */
+    border-bottom: 1px solid #bbbbbb;
+    padding: 0;
+}
+.m-table td{
+    padding: 0 0 0 16px;
+    /* align-items: center; */
+}
+.m-table td input {
+    /* align-self: center; */
+}
+
+.m-table thead{
+    font-family: MISA Font Bold;
+    border-bottom: 1px solid #ddd;
+
+}

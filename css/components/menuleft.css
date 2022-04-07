@@ -1,0 +1,76 @@
+.menu-left{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    width: 200px;
+    border-right: 1px solid #bbbbbb;
+    height: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+.menu-left-item{
+    height: 44px;
+    font-size: 13px;    
+    padding-left: 16px;
+    display: flex;
+    align-items: center;
+    color: #454545;
+}
+
+.menu-left-item .toggle-button{
+    padding: 0;
+    background-color: white;
+    border: none;
+    height: 24px;
+    width: 24px;
+    margin-right: 10px;
+}
+
+.menu-left-item a{
+    height: 100%;
+    width: 100%;
+}
+
+.toggle-button img {
+    height: 100%;
+}
+.menu-left-item .logo-home{
+    height: 100%;
+    width: 100%;
+    background-image: url(../../asset/cukcuk-logo.png);
+    background-size: 60% 60%;
+    background-repeat: no-repeat;
+    background-position: 0 center;
+}
+
+.logo-home img{
+    height: 70%;
+    align-self: center;
+}
+
+.menu-left-item .item-icon{
+    height: 20px;
+    width: 20px;
+}
+
+.menu-left-item .item-text{
+    
+    font-family: MISA Font;
+    font-size: 13px;
+    margin-left: 16px;
+}
+
+.menu-left-item.m-item-selected{
+    background-color: #019160;
+    color: #ffffff;
+    font-family: MISA Font Medium;
+
+}
+.menu-left-item:hover{
+    background-color: #e5e5e5;
+    color: #000000;
+    font-family: MISA Font Regular;
+
+}

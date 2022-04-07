@@ -1,0 +1,19 @@
+.m-second-button{
+    border-color: #bbbbbb;
+    border-style: solid;
+    border-radius: 4px;
+    height: 40px;
+    font-size: 13px;
+    color: #000000;
+    font-family: MISA Font Regular;
+    padding: 0 24px 0 24px;
+    text-align: center;
+}
+
+.m-second-button:hover{
+    background-color: #E9EBEE;
+}
+
+.m-second-button:active{
+    background-color: #01B075;
+}
